@@ -1,0 +1,256 @@
+html{
+    background-image: url('fondo1.jpg') ;
+}
+img.logo{
+    height: 40px;
+    width: 40px;
+    float: left;
+    padding-top: 10px;
+}
+
+.contenedor{
+    height: 80px;
+}
+
+.barra{
+    height: 60px;
+    background-color: white;
+    position:fixed;
+    border-radius: 10px;
+    margin-left: 280px;
+}
+
+.left{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    float: left;
+    padding: 15px 20px;
+    box-sizing: 50px 100px;
+}
+
+.left a:link{
+    color: darkred;
+    text-decoration: none;
+}
+
+.left a:hover{
+    color: darkred;
+    font-size: 22px;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.left a:visited{
+    color:darkred;
+    text-decoration: none;
+}
+
+.plantilla{
+    height: 500px;   
+}    
+
+img.perfil{
+    height: 20px;
+    width: 30px;
+}
+
+.izq{
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+#titul{
+    font-size: 28px;
+    color: white;
+    background-color: darkred;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.linea{
+    border: 1px black solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 40px;
+}
+
+.izq a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: darkred;
+
+}
+img.team{
+    height: 400px;
+    width: 600px;
+    border: 5px black solid;
+    margin-top: 20px;
+    margin-right: 250px;
+    float: right; 
+}
+
+img.team:hover{
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.5) ; 
+}
+
+.linea:nth-child(odd){
+    background-color: #ccc;
+}
+.linea:nth-child(even){
+    background-color: white;
+}
+
+
+
+.casaca{
+    float: left;
+    height: 250px;
+    width: 250px;
+    border: 3px black solid;
+    margin: 0 75px;
+}
+
+
+.histori{
+    background-color: darkred;
+    margin:0 300px;
+    max-height: 500px;
+    border: 3px black solid;
+}
+
+section #historia{
+    padding: 10px;
+    color: white;
+    background-color: darkred;
+    text-align: center;
+    font-size: 40px;
+    margin: 0px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+}
+
+section p{
+    padding: 15px;
+    background-color: white;
+}
+
+.halofamers{
+    background-image:url('descargafondo.jpg');
+    height: 600px;
+    margin: 50px 0;
+}
+
+img.fotito1{
+    float:left;
+    margin: 150px 0;
+    margin-left: 100px;
+    border: 3px solid black;
+}
+
+img.fotito1:hover{
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+img.fotito2:hover{
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+img.fotito2{
+    float:right;
+    margin: 150px 0;
+    margin-right: 100px;
+    border: 3px solid black;
+}
+
+#jugadoresnotables{
+    background-color: darkred;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:white;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+#mhof{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.right{
+    text-align: center;
+    list-style-type: none;
+    padding:5px 10px;
+    width: 300px;
+    margin: 0 auto
+}
+
+
+.lain{
+    background-color: darkred;
+    border: 2px solid black;
+    padding: 5px 20px;
+}
+
+.lain:hover{
+    background-color: goldenrod;
+}
+
+.lain a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lain a:hover{
+    color: darkred;
+    text-decoration: underline;
+}
+
+.equipacion{
+    height: 400px;
+    background-image: url('descargafondo.jpg');
+    border: 3px black solid;
+}
+
+#equipacion{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    background-color: darkred;
+    color: white;
+    padding: 10px 0;
+    margin-top: 0px;
+}
+
+footer{
+    background-image: url('descargafondo.jpg');
+    margin-top: 20px;
+    height: 200px;
+}
+
+.pieder{
+    float: right;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+
+.contacto{
+    height: 40px;
+    width: 40px;
+    margin: 10px
+}
+.pieizq{
+    float: left;
+    font-size: 16px;
+    color: darkred;
+    margin-top: 70px;
+    margin-left: 50px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
